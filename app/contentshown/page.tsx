@@ -49,7 +49,7 @@ const ContentPage = ({
 
   return (
     <>
-      {storeInput.map((item, index) => (
+      {storeInput?.map((item, index) => (
         <section className="flex items-end gap-5" key={item._id}>
           <div className="lg:w-96 w-64 mt-15 flex justify-between border-b-2 border-b-gray-200">
             <h2 className="font-semibold text-lg ml-2">{item.userInput}</h2>
